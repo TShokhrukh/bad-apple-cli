@@ -1,6 +1,6 @@
-# Playing Videos in CLI with Node.js and OpenCV
+# Playing Bad Apple in CLI with Node.js and OpenCV
 
-This repository provides a simple way to play videos in the command line interface (CLI) using Node.js and OpenCV. Before getting started, make sure you have Node.js version 16.17.0 or higher installed.
+This repository provides a way to play Bad Apple in the command line interface (CLI) using Node.js and OpenCV. Before getting started, make sure you have Node.js version 16.17.0 or higher installed.
 
 ### Installation and Usage Instructions
 1. Install dependencies using npm:
