@@ -117,7 +117,7 @@ module.exports = class Core {
    * @returns {string}
    */
   createAsciiText (array) {
-    return array.reduce((prev, row) => prev + this.createRowAscii(row) + '\n', '')
+    return array.reduce((prev, row) => prev + this.createColAscii(row) + '\n', '')
   }
 
   /**
@@ -125,7 +125,7 @@ module.exports = class Core {
    * @param {([number, number, number, number])[]} col
    * @returns {string}
    */
-  createRowAscii (col) {
+  createColAscii (col) {
     return col.reduce((prev, pixel) => prev + this.getAsciiChar(...pixel), '')
   }
 
